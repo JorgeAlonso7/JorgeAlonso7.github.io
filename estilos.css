@@ -1,0 +1,31 @@
+h1{ 
+    color: forestgreen;
+    text-align: center;
+    font-size: 50px;
+    text-decoration:underline dashed greenyellow ;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    padding: 40px;
+    width: 50%;
+    border: 1px solid black;
+    margin: auto;
+}
+h3{
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline 10px green solid;
+    border: 1px  solid red;
+    border-bottom-color: black;
+}
+p.parrafosIniciales{
+    color: goldenrod;
+}
+
+p.parrafosNormales{
+    color: hotpink;
+}
