@@ -29,3 +29,14 @@ p.parrafosIniciales{
 p.parrafosNormales{
     color: hotpink;
 }
+body {
+      text-align: center;
+    }
+    img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+    }
+    li{
+        list-style: none;
+    }
