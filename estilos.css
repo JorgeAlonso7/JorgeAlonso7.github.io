@@ -1,25 +1,25 @@
 h1{ 
-    color: forestgreen;
+    color: goldenrod;
     text-align: center;
     font-size: 50px;
-    text-decoration:underline dashed greenyellow ;
+    text-decoration:underline dotted gold ;
 }
 h2{
     color: white;
     text-align: center;
     font-size: 30px;
-    background-color: blue;
+    background-color: gold;
     padding: 40px;
     width: 50%;
     border: 1px solid black;
     margin: auto;
 }
 h3{
-    color: aqua;
+    color: gold;
     text-align: center;
     font-size: 30px;
-    text-decoration: underline 10px green solid;
-    border: 1px  solid red;
+    text-decoration: underline 10px white solid;
+    border: 1px  solid white;
     border-bottom-color: black;
 }
 p.parrafosIniciales{
@@ -29,8 +29,12 @@ p.parrafosIniciales{
 p.parrafosNormales{
     color: hotpink;
 }
+p{
+    color: white;
+}
 body {
       text-align: center;
+      background-color:  #374151;
     }
     img {
       display: inline-block;
@@ -39,4 +43,8 @@ body {
     }
     li{
         list-style: none;
+        color: white;
+    }
+    ul{
+        color: white;
     }
