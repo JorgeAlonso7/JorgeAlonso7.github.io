@@ -9,20 +9,20 @@ h1{
     color: goldenrod;
     text-align: center;
     font-size: 50px;
-    text-decoration: underline dotted gold;
+    text-decoration: underline dotted goldenrod;
 }
 h2{
     color: white;
     text-align: center;
     font-size: 30px;
-    background-color: gold;
+    background-color: goldenrod;
     padding: 40px;
     width: 50%;
     border: 1px solid black;
     margin: auto;
 }
 h3{
-    color: gold;
+    color: goldenrod;
     text-align: center;
     font-size: 30px;
 }
@@ -68,5 +68,6 @@ a{
     color: white;
 }
 footer{
-    color: white;
+    color: goldenrod;
+    background-color: white;
 }
