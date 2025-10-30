@@ -20,7 +20,7 @@ ol{
     margin: auto;
     list-style: none;
     text-align: center;
-    width: calc(100%/3);
+    width: calc(100%/4);
     gap: 40px;
     display: flex;
     justify-content: center;
