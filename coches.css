@@ -1,0 +1,55 @@
+body{
+    margin: auto;
+    width: 80%;
+}
+h1{
+   text-align: center;
+   color: red;
+   font-family:ballet ;
+}
+h2{
+    text-align: center;
+    font-family:kablammo ;
+    text-decoration: underline 10px red;
+}
+ol{
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+li{
+    width:calc(100%/6);
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+article{
+    text-align: center;
+    width: 49%;
+    display:inline-block ;
+    vertical-align: top;
+}
+img{
+    width: 80%;
+}
+img:hover{
+    background-color: red;
+}
+footer{
+    background-color: red;
+    text-align: center;
+}
+li:hover{
+    background-color: red ;
+}
+article:hover{
+    background-color: pink;
+}
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    color: deeppink;
+}
