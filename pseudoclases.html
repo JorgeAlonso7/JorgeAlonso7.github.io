@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclases</title>
+    <style>
+        p{
+            color: red;
+            text-decoration: underline wavy red;
+        }
+        p#primero{
+            color: green;
+        }
+        p.grupo1{
+            color: yellow;
+        }
+        h1.grupo1{
+            color: gray;
+        }
+        p.grupo2{
+            color: blue;
+        }
+        .cursiva{
+            font-style: italic;
+        }
+        h1:hover{
+            color: forestgreen;
+            text-decoration: underline dotted greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="grupo1">Heredia</h1>
+    <p id="primero" class="grupo1">Hola mundo</p>
+    <p class="grupo1 grupo2">Adiós, mundo</p>
+    <p class="grupo1">Hasta luego, mundo</p>
+    <p class="grupo2">Otro</p>
+</body>
+</html>
