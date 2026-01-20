@@ -1,0 +1,24 @@
+body{
+    background-color: #374151;
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin: auto;
+    background-image: url(imagenes/carbonF.jpg!w700wp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+    font-size: 60px;
+}
+h2{
+    text-decoration: underline;
+    font-size: 60px;
+}
+img.aaa{
+    width: 700px;
+}
