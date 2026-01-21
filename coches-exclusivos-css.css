@@ -4,7 +4,7 @@ body{
     color: white;
     width: 90%;
     margin: auto;
-    background-image: url(imagenes/ChatGPT\ Image\ 20\ ene\ 2026\,\ 13_50_02.png);
+    background-image: url(imagenes/fondo-oro.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -20,5 +20,6 @@ h2{
     text-decoration: underline ;
 }
 p{
+    color: gray;
     font-size: 20px;
 }

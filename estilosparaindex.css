@@ -15,6 +15,10 @@ h1{
     text-align: center;
     font-size: 70px;
 }
+h2{
+    color: goldenrod;
+    font-size: 70px;
+}
 ol{
     padding: 40px;
     margin: auto;
