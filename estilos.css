@@ -71,3 +71,19 @@ footer{
     color: goldenrod;
     background-color: white;
 }
+@media screen and (min-width:10px) and (max-width:420px){
+    ol{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+
+    }
+    h1{
+        text-align: center;
+    }
+    li img{
+        width: 50px;
+    }
+}
