@@ -17,12 +17,71 @@ h1{
 }
 h2{
     text-decoration: underline;
-    font-size: 60px;
-}
-img.aaa{
-    width: 700px;
+    font-size: 40px;
+    margin-top: 10px;
 }
 a{
     color: white;
     font-size: 20px;
+}
+.coche{
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    vertical-align: top;
+    text-align: center;
+}
+img.aaa{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.coche h2,
+.coche p{
+    margin-top: 10px;
+}
+img:hover{
+    box-shadow: 10px 20px 25px 10px rgba(245, 158, 11, 0.2);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+@media (max-width: 768px){
+    .coche{
+        width: 80%;
+        margin: 20px auto;
+        display: block;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    a{
+        font-size: 18px;
+    }
+}
+@media (max-width: 480px){
+    body{
+        width: 95%;
+    }
+    .coche{
+        width: 100%;
+        margin: 20px 0;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    a{
+        font-size: 16px;
+    }
+    img.aaa{
+        width: 100%;
+    }
 }
