@@ -33,8 +33,8 @@ a{
     color: white;
 }
 footer{
-    color: goldenrod;
-    background-color: white;
+    color: rgb(102, 102, 102);
+    background-color: rgb(255, 255, 255);
 }
 .aaa{
     width: 400px;
